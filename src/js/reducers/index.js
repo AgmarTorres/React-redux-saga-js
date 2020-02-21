@@ -1,7 +1,7 @@
 import { ADD_ARTICLE } from "../constants/action-types";
 
 const initialState = {
-  articles: []
+  articles: [{id:1, title:1}]
 };
 
 function rootReducer(state = initialState, action) {
